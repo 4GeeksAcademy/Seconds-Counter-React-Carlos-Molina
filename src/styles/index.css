@@ -1,12 +1,22 @@
+.contadorCompleto {
+    display: flex;
+    background-color: rgb(78, 0, 0);
+    padding: 5px;
+    width: 375px;
+    border-radius: 5px;
+    margin: 10px;
+}
 
-/* 
+.iconoReloj, .unidades, .decenas, .centenas, .unidadesMillar, .decenasMillar, .centenasMillar {
+    width: 50px;
+    background-color: rgba(117, 1, 1, 0.849);
+    margin: 2px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px;
+    font-size: xx-large;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.iconoReloj {
+    width: 50px;
+}
